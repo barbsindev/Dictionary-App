@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+.Dictionary {
+  &__header {
+    text-align: center;
+  }
+  &__Logo {
+    width: 350px;
+    margin-top: 50px;
+    @media only screen and (max-width: 748px) {
+      width: 290px;
+      margin-top: 30px;
+    }
+  }
+  &__Img {
+    width: 60px;
+    @media only screen and (max-width: 748px) {
+      width: 50px;
+    }
+  }
+  &__input {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid rgb(106, 116, 124);
+    border-radius: 4px;
+    margin-top: 20px;
+    @media only screen and (max-width: 748px) {
+      width: 90%;
+    }
+  }
+  h4 {
+    text-shadow: 0.5px 0.5px white;
+    color: $darkblue;
+    margin: 15px 0;
+  }
+}

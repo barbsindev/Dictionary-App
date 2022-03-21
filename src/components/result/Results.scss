@@ -1,0 +1,34 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.Results {
+  &__main {
+    background-color: $purple;
+    @include background;
+    @media only screen and (max-width: 748px) {
+      width: 90%;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  &__meaning {
+    @include background;
+    background-color: $blue;
+    @media only screen and (max-width: 748px) {
+      width: 90%;
+    }
+    h3 {
+      padding: 10px;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+.example {
+  padding: 10px;
+}

@@ -1,0 +1,26 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.row {
+  @include grid;
+}
+
+@media only screen and(max-width:748px) {
+  .row {
+    grid-template-columns: auto auto;
+  }
+}
+.Photos {
+  @include background;
+  background-color: $yellow;
+  margin-bottom: 50px;
+  @media only screen and (max-width: 748px) {
+    width: 90%;
+  }
+  &__img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid rgb(124, 124, 124);
+  }
+}

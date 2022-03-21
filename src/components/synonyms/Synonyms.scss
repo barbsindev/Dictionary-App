@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+.Synonyms {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  li {
+    padding-right: 10px;
+    color: black;
+    font-weight: light;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+.Phonetics {
+  display: flex;
+  padding: 0 10px 10px 10px;
+  &__link {
+    font-size: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: $darkpurple;
+    text-shadow: 0.5px 0.5px white;
+  }
+  &__link:hover {
+    color: white;
+    text-shadow: 0.5px 0.5px $darkpurple;
+  }
+
+  &__text {
+    font-size: 15px;
+  }
+}

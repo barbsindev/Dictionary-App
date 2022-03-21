@@ -1,0 +1,13 @@
+@mixin background {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}

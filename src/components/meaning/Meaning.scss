@@ -1,0 +1,15 @@
+@import "./mixins";
+@import "./variables";
+
+.Meaning {
+  &__meaning {
+    @include background;
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .example {
+    padding: 10px;
+  }
+}

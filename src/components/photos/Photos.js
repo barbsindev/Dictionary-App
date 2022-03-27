@@ -12,7 +12,7 @@ export default function Photos(props) {
                   <img
                     src={photo.src.landscape}
                     key={index}
-                    alt="images"
+                    alt=" group of images of searched word "
                     className="Photos__img"
                   />
                 </a>

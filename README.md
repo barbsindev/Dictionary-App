@@ -1,3 +1,8 @@
+
+# Dictionary App
+
+<img width="1072" alt="Screenshot 2022-03-05 at 23 43 10" src="https://user-images.githubusercontent.com/77361223/161095445-9a64cb8b-8144-4da8-8f2c-3695e45b1eca.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

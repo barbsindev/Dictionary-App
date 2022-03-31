@@ -7,9 +7,7 @@
 This is a Dictionary App built with react abd SCSS.
 
 ## Features
--Axios, Pexel API
--Grid
--Request to Dictionary API to pull dictionary data including definition, synonyms and audio
+Axios, Pexel API, Grid, request to Dictionary API to pull dictionary data including definition, synonyms and audio
 
 # Getting Started with Create React App
 

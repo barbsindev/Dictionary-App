@@ -21,7 +21,9 @@ export default function Dictionary(props) {
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
+
     const pexelApiKey = `${process.env.REACT_APP_PEXEL_API_KEY}`;
+
     let pexelApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=12`;
     let header = { Authorization: `Bearer ${pexelApiKey}` };
     axios.get(pexelApiUrl, { headers: header }).then(handlePexelResponse);
@@ -48,7 +50,7 @@ export default function Dictionary(props) {
             src={Logo}
             alt="dictionary logo"
           ></img>
-          <img className="Dictionary__Img" src={Img} alt="reading owl "></img>
+          <img className="Dictionary__Img" src={Img} alt="reading owl"></img>
 
           <form onSubmit={handleSubmit}>
             <input

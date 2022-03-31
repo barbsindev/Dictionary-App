@@ -3,6 +3,14 @@
 
 <img width="1072" alt="Screenshot 2022-03-05 at 23 43 10" src="https://user-images.githubusercontent.com/77361223/161095445-9a64cb8b-8144-4da8-8f2c-3695e45b1eca.png">
 
+# Overview
+This is a Dictionary App built with react abd SCSS.
+
+## Features
+-Axios, Pexel API
+-Grid
+-Request to Dictionary API to pull dictionary data including definition, synonyms and audio
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,4 +81,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Dictionary-App
+
